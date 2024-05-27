@@ -23,15 +23,41 @@ function App() {
   //     <Button color="primary"onClick={() => console.log('Clicked')}>My button</Button>
   //   </div>
   // )
-  const [alertVisible, setAlertVisible] = useState(false);
+
+  // const [alertVisible, setAlertVisible] = useState(false);
+
+  // const handleClick = () => {
+  //   setAlertVisible(true);
+  //   console.log(alertVisible);
+  // }
+
+  // return (
+  //   <div>
+  //     {alertVisible && <Alert2 onClose={() => setAlertVisible(false)}>Holyyyy</Alert2>}
+  //     <Button color="primary"onClick={() => setAlertVisible(true)}>My button</Button>
+  //     <BsArrowDownCircleFill size="50" color="red"/>
+  //   </div>
+    
+  // )
+
+  // const [firstName, setFirstName] = useState('');
+  // const [lastName, setLastName] = useState('');
+  const [person, setPerson] = useState({
+    firstName: '',
+    lastName: '',
+    contact: {
+      address: {
+        street: '',
+      }
+    } 
+  });
+  const [isLoading, setLoading] = useState(false);
+  // const fullName = firstName + " " + lastName
 
   return (
     <div>
-      {alertVisible && <Alert2 onClose={() => setAlertVisible(false)}>Holyyyy</Alert2>}
-      <Button color="primary"onClick={() => setAlertVisible(true)}>My button</Button>
-      <BsArrowDownCircleFill size="50" color="red"/>
+      
     </div>
-    
   )
 }
 
