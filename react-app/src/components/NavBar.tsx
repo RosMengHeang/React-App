@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface Props {
-    cartItemsCount : string[]
+    cartItemsCount : number
 }
 
 const NavBar = ({cartItemsCount} : Props) => {
