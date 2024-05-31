@@ -8,6 +8,7 @@ import produce from "immer";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
 import ExpandableText from "./components/ExpandableText";
+import { Form } from "./components/Form";
 
 function App() {
   // let items = ["New York", "Los Angeles", "Phnom Penh", "Tokyo", "Paris"];
@@ -149,9 +150,12 @@ function App() {
       {/* {cart.item.quantity}
       <button onClick={handleClick}>Clcik Here</button> */}
 
-      <ExpandableText maxChar={10}>
+      {/* <ExpandableText maxChar={10}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad distinctio possimus atque magnam tempore quaerat architecto optio nostrum expedita ipsa quasi eaque modi, doloribus id sed praesentium qui. Repellat soluta repellendus et ratione aliquam ex commodi obcaecati, id, voluptates impedit qui aspernatur recusandae consectetur fuga laudantium neque velit unde dolor magni, harum illo? Illum voluptates blanditiis explicabo tenetur adipisci veniam accusantium quis deleniti hic sit! Et nisi enim commodi, eligendi laborum illum dolore. Pariatur accusantium suscipit debitis voluptatibus porro ducimus deserunt rerum maiores nesciunt consequatur minima illo quidem molestiae sint iste voluptates, laboriosam amet nobis. Itaque eveniet optio nihil.
-      </ExpandableText>
+      </ExpandableText> */}
+
+      <Form></Form>
+      
     </div>
   )
 }
